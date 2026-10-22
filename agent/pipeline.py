@@ -580,7 +580,9 @@ class Run:
         match = re.match(r'\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})\s*(\S+)?', str(site.get('access_window') or ''))
         if not match:
             return True
-        tz = zone_for(match.group(5) or site.get('timezone')) or timezone.utc
+        tz = zone_for(match.group(5) or site.get('timezone'))
+        if tz is None:  # unknown zone, or no tz database in the image: never guess the site's hours in UTC
+            return False
         local = start.astimezone(tz)
         opens, closes = int(match.group(1)) * 60 + int(match.group(2)), int(match.group(3)) * 60 + int(match.group(4))
         begin = local.hour * 60 + local.minute

@@ -5,14 +5,21 @@
 - **Actual time spent:** about 3.5 hours building; additional time went into understanding the system and making sense of its behaviour. See AI_BUILD_LOG.md for the workflow.
 
 ## Start command and health check
-**Docker** (the image and compose file are unchanged; the agent reads model settings from `.env` via `env_file`):
+**Docker** (the compose file is unchanged; the agent reads model settings from `.env` via `env_file`):
 ```sh
 cp .env.example .env        # then add MODEL_API_KEY (optional: the agent runs rules-only without it)
 docker compose up --build -d
 curl localhost:8000/health  # {"ok": true, ...}
 docker compose run --rm public-evals
 ```
-The Docker path was **not run locally**, because Docker isn't installed on the development machine. All measurements used the no-Docker path below. The image needs no new dependencies (standard library only).
+The Docker path was **not run locally**, because Docker isn't installed on the development machine. All measurements used the no-Docker path below. To reduce that risk:
+- The code is standard library only and was checked to parse as Python 3.12 (the image's version; development used 3.13).
+- The one image change installs `tzdata`. Slim Debian images may not ship the IANA timezone database, and site timezones such as `America/New_York` need it. The install is best-effort: if it fails, the build still succeeds and the agent degrades safely. It asks for UTC times and treats access windows in unknown zones as closed instead of guessing (unit test `test_missing_tz_database_never_falls_back_to_utc_hours`).
+
+**For the private evaluator:** no extra access is needed beyond the per-request `api_url` and `session_token`. Model access is optional:
+- **Without a key** the agent runs its rules-only path (96.4% on the authored suite, 0 catastrophic).
+- **With a key**, set `MODEL_API_KEY` in `.env`. The defaults point at Gemini 3.1 Flash-Lite. A free-tier Gemini key is capped at 500 requests/day, which a repeated-trial suite will exceed, so a paid key is needed for model-assisted grading.
+- **For DeepSeek via OpenRouter**, also set `MODEL_BASE_URL=https://openrouter.ai/api/v1` and `MODEL_NAME=deepseek/deepseek-v4-flash`.
 
 **Without Docker** (Python 3.12+, no pip packages):
 ```sh
@@ -111,7 +118,9 @@ python -m unittest discover -s tests -v                                         
 - `agent/config.py`: settings.
 - `starter/agent.py`: now delegates to `agent.pipeline.process` and adds the `GET /traces` routes. The `/health`, `/process` and `/demo` contracts are unchanged.
 - `evals/`: authored, held-out and trap cases, the independent grader, the runner (with `--pace`) and saved results.
-- `tests/test_agent.py`: 20 new offline tests. `tests/test_http.py` has one starter-specific assertion updated, from status `error` to `needs_clarification`; its no-write and no-token-leak checks are unchanged.
-- **No changes to** `northstar/`, `public/`, the `Dockerfile` or `docker-compose.yml`.
+- `tests/test_agent.py`: 21 new offline tests. `tests/test_http.py` has one starter-specific assertion updated, from status `error` to `needs_clarification`; its no-write and no-token-leak checks are unchanged.
+- `Dockerfile`: one best-effort `tzdata` install (see above).
+- `.env.example`: documents the model settings.
+- **No changes to** `northstar/`, `public/` or `docker-compose.yml`.
 
 POST /process follows docs/API.md and uses only the per-request `api_url` and `session_token`. It never needs local fixture paths or administrative access. `/demo` is the starter's local-only helper; disable it in grading or production with an empty `ADMIN_TOKEN`.

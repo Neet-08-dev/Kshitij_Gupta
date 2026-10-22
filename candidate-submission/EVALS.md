@@ -141,7 +141,7 @@ python -m evals.run --trials 2 --risky-trials 5 --workers 2 --pace 5 --label mod
 python -m evals.run --cases evals/holdout.json --trials 3 --out reports/holdout.json
 MODEL_DISABLED=1 python -m starter.agent --port 8002   # rules-only agent
 python -m evals.run --agent-url http://localhost:8002 --trials 1 --risky-trials 3 --out reports/evals_rules.json
-python -m unittest discover -s tests -v                  # 36 offline tests, no key needed
+python -m unittest discover -s tests -v                  # 37 offline tests, no key needed
 ```
 
 **Baseline vs changed system** (same authored suite, same mock, same day):

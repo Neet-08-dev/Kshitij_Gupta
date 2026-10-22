@@ -90,6 +90,17 @@ class ScannerTests(unittest.TestCase):
         self.assertIn('credit', interpret.interpret(text, NOW, interpret.scan(text, {}), None, body=body)['intents'])
 
 
+class TimezoneDatabaseTests(unittest.TestCase):
+    def test_missing_tz_database_never_falls_back_to_utc_hours(self):
+        from zoneinfo import ZoneInfoNotFoundError
+        from agent import pipeline
+        site = {'timezone': 'America/New_York', 'access_window': '09:00-18:00'}
+        start = datetime(2030, 4, 8, 14, tzinfo=timezone.utc)  # 10:00 in New York: inside the window
+        self.assertTrue(pipeline.Run.access_ok(None, site, start, 60))
+        with mock.patch.object(pipeline, 'ZoneInfo', side_effect=ZoneInfoNotFoundError('no tzdata')):  # slim image
+            self.assertFalse(pipeline.Run.access_ok(None, site, start, 60))
+
+
 class ModelClientTests(unittest.TestCase):
     def _body(self, base_url):
         from agent.llm import LLM

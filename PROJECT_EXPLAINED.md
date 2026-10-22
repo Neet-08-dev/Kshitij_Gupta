@@ -861,7 +861,7 @@ Kshitij_Gupta/
 │   ├── run.py                  runs tests with repeated trials, prints tables
 │   └── results/                saved result files used in the reports
 ├── tests/
-│   ├── test_agent.py           20 offline tests (no key needed)
+│   ├── test_agent.py           21 offline tests (no key needed)
 │   └── test_http.py, ...       original contract tests (one assertion updated)
 ├── candidate-submission/       ← WHAT WE HAND IN
 │   ├── README.md               how to run, scope, demo plan

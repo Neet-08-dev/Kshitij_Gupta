@@ -51,10 +51,10 @@ A close second was **the silent model misconfiguration**, which was masked by a 
 ## Productivity and limits
 **Observed:**
 - From an empty `process()` (0/8 public, 0/73 authored) to the measured final system and these documents in one session.
-- About 1,700 lines of agent code (including comments), a 73 + 15 case eval suite with about 370 lines of runner and grader, and 20 new tests.
+- About 1,700 lines of agent code (including comments), a 73 + 15 case eval suite with about 370 lines of runner and grader, and 21 new tests.
 - Every number in EVALS.md comes from a saved report in `evals/results/`.
 
-**Subjective estimate:** _[candidate to fill in: how long this would have taken by hand]_.
+**Subjective estimate:** about 2–3 days by hand.
 
 **Where delegation stopped or needed a human check:**
 - Policy interpretations that are business decisions:
