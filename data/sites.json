@@ -1,0 +1,192 @@
+[
+  {
+    "id": "S001",
+    "customer_id": "C001",
+    "name": "Aster Foods Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "11 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S002",
+    "customer_id": "C002",
+    "name": "Birch Logistics Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "22 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S003",
+    "customer_id": "C003",
+    "name": "Cobalt Labs Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "33 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S004",
+    "customer_id": "C004",
+    "name": "Dune Printworks Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "44 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S005",
+    "customer_id": "C005",
+    "name": "Elm Produce Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "55 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S006",
+    "customer_id": "C006",
+    "name": "Fable Plastics Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "66 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S007",
+    "customer_id": "C007",
+    "name": "Granite Textiles Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "77 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S008",
+    "customer_id": "C008",
+    "name": "Harbor Components Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "88 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S009",
+    "customer_id": "C009",
+    "name": "Iris Packaging Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "99 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S010",
+    "customer_id": "C010",
+    "name": "Juniper Fabrication Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "110 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S011",
+    "customer_id": "C011",
+    "name": "Kestrel Supply Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "121 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S012",
+    "customer_id": "C012",
+    "name": "Lumen Storage Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "132 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S013",
+    "customer_id": "C013",
+    "name": "Mosaic Metals Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "143 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S014",
+    "customer_id": "C014",
+    "name": "Nimbus Paper Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "154 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S015",
+    "customer_id": "C015",
+    "name": "Orchid Distribution Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "165 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S016",
+    "customer_id": "C016",
+    "name": "Pine Assembly Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "176 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S017",
+    "customer_id": "C017",
+    "name": "Quartz Foods Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "187 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S018",
+    "customer_id": "C018",
+    "name": "Reed Electronics Loading Dock",
+    "region": "south",
+    "timezone": "UTC",
+    "address": "198 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  },
+  {
+    "id": "S101",
+    "customer_id": "C001",
+    "name": "Aster Foods Annex Loading Dock",
+    "region": "north",
+    "timezone": "UTC",
+    "address": "999 Fictional Industrial Way, Northstar Test District",
+    "access_window": "09:00-18:00 UTC",
+    "status": "active"
+  }
+]

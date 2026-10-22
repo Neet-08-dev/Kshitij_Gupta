@@ -1,0 +1,182 @@
+[
+  {
+    "id": "I001",
+    "customer_id": "C001",
+    "ticket_id": "T001",
+    "total_cents": 50100,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I002",
+    "customer_id": "C002",
+    "ticket_id": "T002",
+    "total_cents": 50200,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I003",
+    "customer_id": "C003",
+    "ticket_id": "T003",
+    "total_cents": 50300,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I004",
+    "customer_id": "C004",
+    "ticket_id": "T004",
+    "total_cents": 50400,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I005",
+    "customer_id": "C005",
+    "ticket_id": "T005",
+    "total_cents": 50500,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I006",
+    "customer_id": "C006",
+    "ticket_id": "T006",
+    "total_cents": 50600,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I007",
+    "customer_id": "C007",
+    "ticket_id": "T007",
+    "total_cents": 50700,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I008",
+    "customer_id": "C008",
+    "ticket_id": "T008",
+    "total_cents": 50800,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I009",
+    "customer_id": "C009",
+    "ticket_id": "T009",
+    "total_cents": 50900,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I010",
+    "customer_id": "C010",
+    "ticket_id": "T010",
+    "total_cents": 51000,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I011",
+    "customer_id": "C011",
+    "ticket_id": "T011",
+    "total_cents": 51100,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I012",
+    "customer_id": "C012",
+    "ticket_id": "T012",
+    "total_cents": 51200,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I013",
+    "customer_id": "C013",
+    "ticket_id": "T013",
+    "total_cents": 51300,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I014",
+    "customer_id": "C014",
+    "ticket_id": "T014",
+    "total_cents": 51400,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I015",
+    "customer_id": "C015",
+    "ticket_id": "T015",
+    "total_cents": 51500,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I016",
+    "customer_id": "C016",
+    "ticket_id": "T016",
+    "total_cents": 51600,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I017",
+    "customer_id": "C017",
+    "ticket_id": "T017",
+    "total_cents": 51700,
+    "currency": "USD",
+    "status": "paid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  },
+  {
+    "id": "I018",
+    "customer_id": "C018",
+    "ticket_id": "T018",
+    "total_cents": 51800,
+    "currency": "USD",
+    "status": "unpaid",
+    "credited_cents": 0,
+    "updated_at": "2030-04-08T08:00:00Z"
+  }
+]

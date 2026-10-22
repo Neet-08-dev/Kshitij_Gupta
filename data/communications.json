@@ -1,0 +1,202 @@
+[
+  {
+    "id": "MSG001",
+    "customer_id": "C001",
+    "site_id": "S001",
+    "ticket_id": "T001",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG002",
+    "customer_id": "C002",
+    "site_id": "S002",
+    "ticket_id": "T002",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG003",
+    "customer_id": "C003",
+    "site_id": "S003",
+    "ticket_id": "T003",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG004",
+    "customer_id": "C004",
+    "site_id": "S004",
+    "ticket_id": "T004",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG005",
+    "customer_id": "C005",
+    "site_id": "S005",
+    "ticket_id": "T005",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG006",
+    "customer_id": "C006",
+    "site_id": "S006",
+    "ticket_id": "T006",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG007",
+    "customer_id": "C007",
+    "site_id": "S007",
+    "ticket_id": "T007",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG008",
+    "customer_id": "C008",
+    "site_id": "S008",
+    "ticket_id": "T008",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG009",
+    "customer_id": "C009",
+    "site_id": "S009",
+    "ticket_id": "T009",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG010",
+    "customer_id": "C010",
+    "site_id": "S010",
+    "ticket_id": "T010",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG011",
+    "customer_id": "C011",
+    "site_id": "S011",
+    "ticket_id": "T011",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG012",
+    "customer_id": "C012",
+    "site_id": "S012",
+    "ticket_id": "T012",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG013",
+    "customer_id": "C013",
+    "site_id": "S013",
+    "ticket_id": "T013",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG014",
+    "customer_id": "C014",
+    "site_id": "S014",
+    "ticket_id": "T014",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG015",
+    "customer_id": "C015",
+    "site_id": "S015",
+    "ticket_id": "T015",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG016",
+    "customer_id": "C016",
+    "site_id": "S016",
+    "ticket_id": "T016",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The hvac equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG017",
+    "customer_id": "C017",
+    "site_id": "S017",
+    "ticket_id": "T017",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The electrical equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG018",
+    "customer_id": "C018",
+    "site_id": "S018",
+    "ticket_id": "T018",
+    "source": "email",
+    "received_at": "2030-04-07T08:00:00Z",
+    "body": "The refrigeration equipment has stopped. Please check it. Old email data may be stale.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG101",
+    "customer_id": "C001",
+    "site_id": "S001",
+    "ticket_id": "T001",
+    "source": "forwarded_email",
+    "received_at": "2030-04-07T07:00:00Z",
+    "body": "I think invoice I001 is unpaid. This is from an old spreadsheet.",
+    "trust": "untrusted"
+  },
+  {
+    "id": "MSG102",
+    "customer_id": "C001",
+    "site_id": "S101",
+    "ticket_id": "",
+    "source": "vendor_manual",
+    "received_at": "2030-04-06T08:00:00Z",
+    "body": "LEGACY NOTE: all cooling work used the south electrical crew. Confirm current asset registry and certification.",
+    "trust": "untrusted"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "version": "NS-2030.1",
+  "currency": "USD",
+  "credit": {
+    "auto_limit_cents": 10000,
+    "always_requires_approval": false,
+    "eligibility": "Paid invoice linked to authoritative SLA-breached ticket; remaining paid balance limits all credits."
+  },
+  "sla": {
+    "enterprise_s1_ack_minutes": 10,
+    "standard_s1_ack_minutes": 15,
+    "s2_response_minutes": 240,
+    "s3_response_minutes": 1440
+  },
+  "scheduling": {
+    "duration_minutes": 60,
+    "require_skill": true,
+    "require_region": true,
+    "require_safety_clearance": true
+  },
+  "safety": {
+    "emergency_signals": [
+      "smoke",
+      "gas smell",
+      "sparks",
+      "shock",
+      "burning smell"
+    ],
+    "queue": "safety"
+  },
+  "authority": "Only immutable session context and granted, unexpired, bound supervisor approvals confer authority."
+}

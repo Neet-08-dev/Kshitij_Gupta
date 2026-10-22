@@ -1,0 +1,193 @@
+[
+  {
+    "id": "CONTACT001",
+    "customer_id": "C001",
+    "name": "Contact 01",
+    "email": "operations01@customer01.example",
+    "authorized": true,
+    "site_ids": [
+      "S001",
+      "S101"
+    ]
+  },
+  {
+    "id": "CONTACT002",
+    "customer_id": "C002",
+    "name": "Contact 02",
+    "email": "operations02@customer02.example",
+    "authorized": true,
+    "site_ids": [
+      "S002"
+    ]
+  },
+  {
+    "id": "CONTACT003",
+    "customer_id": "C003",
+    "name": "Contact 03",
+    "email": "operations03@customer03.example",
+    "authorized": true,
+    "site_ids": [
+      "S003"
+    ]
+  },
+  {
+    "id": "CONTACT004",
+    "customer_id": "C004",
+    "name": "Contact 04",
+    "email": "operations04@customer04.example",
+    "authorized": true,
+    "site_ids": [
+      "S004"
+    ]
+  },
+  {
+    "id": "CONTACT005",
+    "customer_id": "C005",
+    "name": "Contact 05",
+    "email": "operations05@customer05.example",
+    "authorized": true,
+    "site_ids": [
+      "S005"
+    ]
+  },
+  {
+    "id": "CONTACT006",
+    "customer_id": "C006",
+    "name": "Contact 06",
+    "email": "operations06@customer06.example",
+    "authorized": true,
+    "site_ids": [
+      "S006"
+    ]
+  },
+  {
+    "id": "CONTACT007",
+    "customer_id": "C007",
+    "name": "Contact 07",
+    "email": "operations07@customer07.example",
+    "authorized": true,
+    "site_ids": [
+      "S007"
+    ]
+  },
+  {
+    "id": "CONTACT008",
+    "customer_id": "C008",
+    "name": "Contact 08",
+    "email": "operations08@customer08.example",
+    "authorized": true,
+    "site_ids": [
+      "S008"
+    ]
+  },
+  {
+    "id": "CONTACT009",
+    "customer_id": "C009",
+    "name": "Contact 09",
+    "email": "operations09@customer09.example",
+    "authorized": true,
+    "site_ids": [
+      "S009"
+    ]
+  },
+  {
+    "id": "CONTACT010",
+    "customer_id": "C010",
+    "name": "Contact 10",
+    "email": "operations10@customer10.example",
+    "authorized": true,
+    "site_ids": [
+      "S010"
+    ]
+  },
+  {
+    "id": "CONTACT011",
+    "customer_id": "C011",
+    "name": "Contact 11",
+    "email": "operations11@customer11.example",
+    "authorized": true,
+    "site_ids": [
+      "S011"
+    ]
+  },
+  {
+    "id": "CONTACT012",
+    "customer_id": "C012",
+    "name": "Contact 12",
+    "email": "operations12@customer12.example",
+    "authorized": true,
+    "site_ids": [
+      "S012"
+    ]
+  },
+  {
+    "id": "CONTACT013",
+    "customer_id": "C013",
+    "name": "Contact 13",
+    "email": "operations13@customer13.example",
+    "authorized": true,
+    "site_ids": [
+      "S013"
+    ]
+  },
+  {
+    "id": "CONTACT014",
+    "customer_id": "C014",
+    "name": "Contact 14",
+    "email": "operations14@customer14.example",
+    "authorized": true,
+    "site_ids": [
+      "S014"
+    ]
+  },
+  {
+    "id": "CONTACT015",
+    "customer_id": "C015",
+    "name": "Contact 15",
+    "email": "operations15@customer15.example",
+    "authorized": true,
+    "site_ids": [
+      "S015"
+    ]
+  },
+  {
+    "id": "CONTACT016",
+    "customer_id": "C016",
+    "name": "Contact 16",
+    "email": "operations16@customer16.example",
+    "authorized": true,
+    "site_ids": [
+      "S016"
+    ]
+  },
+  {
+    "id": "CONTACT017",
+    "customer_id": "C017",
+    "name": "Contact 17",
+    "email": "operations17@customer17.example",
+    "authorized": true,
+    "site_ids": [
+      "S017"
+    ]
+  },
+  {
+    "id": "CONTACT018",
+    "customer_id": "C018",
+    "name": "Contact 18",
+    "email": "operations18@customer18.example",
+    "authorized": true,
+    "site_ids": [
+      "S018"
+    ]
+  },
+  {
+    "id": "CONTACT101",
+    "customer_id": "C001",
+    "name": "Unapproved contractor",
+    "email": "contractor@customer01.example",
+    "authorized": false,
+    "site_ids": [
+      "S101"
+    ]
+  }
+]

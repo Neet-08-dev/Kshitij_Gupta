@@ -1,0 +1,90 @@
+[
+  {
+    "id": "TECH001",
+    "name": "Test Technician 01",
+    "region": "north",
+    "skills": [
+      "hvac",
+      "refrigeration"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  },
+  {
+    "id": "TECH002",
+    "name": "Test Technician 02",
+    "region": "north",
+    "skills": [
+      "hvac",
+      "electrical"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  },
+  {
+    "id": "TECH003",
+    "name": "Test Technician 03",
+    "region": "south",
+    "skills": [
+      "electrical"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  },
+  {
+    "id": "TECH004",
+    "name": "Test Technician 04",
+    "region": "south",
+    "skills": [
+      "hvac",
+      "refrigeration"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  },
+  {
+    "id": "TECH005",
+    "name": "Test Technician 05",
+    "region": "north",
+    "skills": [
+      "electrical"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  },
+  {
+    "id": "TECH006",
+    "name": "Test Technician 06",
+    "region": "south",
+    "skills": [
+      "hvac",
+      "electrical"
+    ],
+    "active": true,
+    "available_slots": [
+      "2030-04-08T10:00:00Z",
+      "2030-04-08T14:00:00Z",
+      "2030-04-09T10:00:00Z"
+    ]
+  }
+]

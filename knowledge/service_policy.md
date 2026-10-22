@@ -1,0 +1,7 @@
+# Service and scheduling policy — NS-2030.1
+
+Use the verified session principal, scoped customer records, site/asset IDs and current open tickets. If site or equipment identity is unresolved, ask a specific question before writing. A retired asset, contradictory current identity records or an unavailable service entitlement requires an operations handoff. An inactive/expired contract is not a promise of coverage; ask operations to quote or reconcile. Do not invent charges or repairs.
+
+Routine interruption is S2; nonurgent maintenance/information is S3. Smoke, sparks, shock, burning smell or gas smell is a safety S1 incident: escalate to safety immediately, tell the requester to move away from the hazard and contact site emergency personnel. Never provide wiring, bypass, refrigerant or other dangerous repair steps. Do not book ordinary service before safety clearance.
+
+For scheduling, read the live ticket, asset and site. Read eligible slots and choose an available one-hour slot matching requested time when supplied. If a requested time is occupied or no qualified slot exists, propose an actual alternative or escalate; never claim a booking that failed. Check exact timezones; ask clarification for ambiguous local times. Technician region and certification are mandatory. Reuse open tickets, avoid duplicate visits and do not close a ticket without verified technician resolution evidence.

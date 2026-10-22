@@ -1,0 +1,128 @@
+[
+  {
+    "id": "C001",
+    "customer_id": "C001",
+    "name": "Aster Foods",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C002",
+    "customer_id": "C002",
+    "name": "Birch Logistics",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C003",
+    "customer_id": "C003",
+    "name": "Cobalt Labs",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C004",
+    "customer_id": "C004",
+    "name": "Dune Printworks",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C005",
+    "customer_id": "C005",
+    "name": "Elm Produce",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C006",
+    "customer_id": "C006",
+    "name": "Fable Plastics",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C007",
+    "customer_id": "C007",
+    "name": "Granite Textiles",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C008",
+    "customer_id": "C008",
+    "name": "Harbor Components",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C009",
+    "customer_id": "C009",
+    "name": "Iris Packaging",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C010",
+    "customer_id": "C010",
+    "name": "Juniper Fabrication",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C011",
+    "customer_id": "C011",
+    "name": "Kestrel Supply",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C012",
+    "customer_id": "C012",
+    "name": "Lumen Storage",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C013",
+    "customer_id": "C013",
+    "name": "Mosaic Metals",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C014",
+    "customer_id": "C014",
+    "name": "Nimbus Paper",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C015",
+    "customer_id": "C015",
+    "name": "Orchid Distribution",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C016",
+    "customer_id": "C016",
+    "name": "Pine Assembly",
+    "tier": "enterprise",
+    "account_status": "active"
+  },
+  {
+    "id": "C017",
+    "customer_id": "C017",
+    "name": "Quartz Foods",
+    "tier": "standard",
+    "account_status": "active"
+  },
+  {
+    "id": "C018",
+    "customer_id": "C018",
+    "name": "Reed Electronics",
+    "tier": "standard",
+    "account_status": "active"
+  }
+]

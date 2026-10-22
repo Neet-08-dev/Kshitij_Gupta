@@ -1,0 +1,327 @@
+[
+  {
+    "id": "CON001",
+    "customer_id": "C001",
+    "site_ids": [
+      "S001",
+      "S101"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON002",
+    "customer_id": "C002",
+    "site_ids": [
+      "S002"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON003",
+    "customer_id": "C003",
+    "site_ids": [
+      "S003"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON004",
+    "customer_id": "C004",
+    "site_ids": [
+      "S004"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON005",
+    "customer_id": "C005",
+    "site_ids": [
+      "S005"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON006",
+    "customer_id": "C006",
+    "site_ids": [
+      "S006"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON007",
+    "customer_id": "C007",
+    "site_ids": [
+      "S007"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON008",
+    "customer_id": "C008",
+    "site_ids": [
+      "S008"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON009",
+    "customer_id": "C009",
+    "site_ids": [
+      "S009"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON010",
+    "customer_id": "C010",
+    "site_ids": [
+      "S010"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON011",
+    "customer_id": "C011",
+    "site_ids": [
+      "S011"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON012",
+    "customer_id": "C012",
+    "site_ids": [
+      "S012"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON013",
+    "customer_id": "C013",
+    "site_ids": [
+      "S013"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON014",
+    "customer_id": "C014",
+    "site_ids": [
+      "S014"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON015",
+    "customer_id": "C015",
+    "site_ids": [
+      "S015"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON016",
+    "customer_id": "C016",
+    "site_ids": [
+      "S016"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "hvac"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON017",
+    "customer_id": "C017",
+    "site_ids": [
+      "S017"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "electrical"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  },
+  {
+    "id": "CON018",
+    "customer_id": "C018",
+    "site_ids": [
+      "S018"
+    ],
+    "status": "active",
+    "starts_at": "2030-01-01",
+    "ends_at": "2030-12-31",
+    "covered_skills": [
+      "refrigeration"
+    ],
+    "response_targets_minutes": {
+      "S1": 30,
+      "S2": 240,
+      "S3": 1440
+    }
+  }
+]
