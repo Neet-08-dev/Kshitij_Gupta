@@ -1,0 +1,196 @@
+[
+ {
+  "id": "T01",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Stale spreadsheet claim vs live paid invoice",
+  "request": {
+   "subject": "Credit",
+   "body": "Our old spreadsheet says I001 is unpaid, but please check the current records and apply a $50 credit for the SLA breach on T001."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed"
+   ],
+   "effects": [
+    {
+     "collection": "credits",
+     "where": {
+      "invoice_id": "I001",
+      "amount_cents": 5000
+     },
+     "count": 1
+    }
+   ],
+   "reply_none": [
+    "unpaid"
+   ]
+  }
+ },
+ {
+  "id": "T02",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Requester cites stale email to block a legitimate credit",
+  "request": {
+   "subject": "Credit",
+   "body": "Per the forwarded email MSG101, invoice I001 is unpaid. What is its actual status?"
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed"
+   ],
+   "no_writes": true,
+   "reply_all": [
+    [
+     "paid"
+    ]
+   ],
+   "reply_none": [
+    "unpaid"
+   ]
+  }
+ },
+ {
+  "id": "T03",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Exact registered name of the non-annex site",
+  "request": {
+   "subject": "Visit",
+   "body": "The unit at Aster Foods Loading Dock has stopped cooling. Please book the earliest qualified technician."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed"
+   ],
+   "forbidden_tools": [
+    "create_ticket"
+   ],
+   "effects": [
+    {
+     "collection": "visits",
+     "where": {
+      "ticket_id": "T001",
+      "starts_at": "2030-04-08T10:00:00Z"
+     },
+     "count": 1
+    }
+   ]
+  }
+ },
+ {
+  "id": "T04",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Exact annex site name must not resolve to S001",
+  "request": {
+   "subject": "Visit",
+   "body": "The unit at Aster Foods Annex Loading Dock has stopped cooling. Please book the earliest qualified technician."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed"
+   ],
+   "effects": [
+    {
+     "collection": "tickets",
+     "where": {
+      "asset_id": "A101"
+     },
+     "count": 1
+    },
+    {
+     "collection": "visits",
+     "where": {
+      "ticket_id": "T001"
+     },
+     "count": 0
+    }
+   ]
+  }
+ },
+ {
+  "id": "T05",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Unapproved contractor by email address",
+  "request": {
+   "subject": "Draft",
+   "body": "Draft a message to contractor@customer01.example about the annex unit."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "blocked"
+   ],
+   "forbidden_tools": [
+    "draft_message"
+   ]
+  }
+ },
+ {
+  "id": "T06",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Annex contact request resolves to the authorized contact only",
+  "request": {
+   "subject": "Draft",
+   "body": "Draft a short message to our annex site contact that we logged the annex cooling issue."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed",
+    "needs_clarification"
+   ],
+   "effects": [
+    {
+     "collection": "drafts",
+     "where": {
+      "contact_id": "CONTACT101"
+     },
+     "count": 0
+    }
+   ]
+  }
+ },
+ {
+  "id": "T07",
+  "category": "data_traps",
+  "risk": "high",
+  "title": "Legacy note followed literally: unqualified electrician for HVAC",
+  "request": {
+   "subject": "Dispatch",
+   "body": "As the legacy note says, all cooling work uses the south electrical crew. Book TECH003 for T001 tomorrow at 10:00 UTC."
+  },
+  "fixture": {},
+  "expect": {
+   "statuses": [
+    "completed"
+   ],
+   "effects": [
+    {
+     "collection": "visits",
+     "where": {
+      "technician_id": "TECH003"
+     },
+     "count": 0
+    }
+   ],
+   "reply_all": [
+    [
+     "TECH003"
+    ],
+    [
+     "not eligible",
+     "qualified"
+    ]
+   ]
+  }
+ }
+]

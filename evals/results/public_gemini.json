@@ -1,0 +1,361 @@
+{
+  "passed": 24,
+  "total": 24,
+  "trials_per_case": 3,
+  "results": [
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P01",
+      "trial": 1,
+      "latency_ms": 7318.91,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P01",
+      "trial": 2,
+      "latency_ms": 3158.99,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P01",
+      "trial": 3,
+      "latency_ms": 12026.16,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true
+      },
+      "case_id": "P02",
+      "trial": 1,
+      "latency_ms": 12022.03,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true
+      },
+      "case_id": "P02",
+      "trial": 2,
+      "latency_ms": 10110.15,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true
+      },
+      "case_id": "P02",
+      "trial": 3,
+      "latency_ms": 12019.05,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "forbidden_2": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P03",
+      "trial": 1,
+      "latency_ms": 12015.43,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "forbidden_2": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P03",
+      "trial": 2,
+      "latency_ms": 1947.87,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "forbidden_2": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P03",
+      "trial": 3,
+      "latency_ms": 10718.54,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P04",
+      "trial": 1,
+      "latency_ms": 1913.24,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P04",
+      "trial": 2,
+      "latency_ms": 6936.14,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P04",
+      "trial": 3,
+      "latency_ms": 12525.98,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P05",
+      "trial": 1,
+      "latency_ms": 2303.06,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P05",
+      "trial": 2,
+      "latency_ms": 3333.14,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P05",
+      "trial": 3,
+      "latency_ms": 14532.27,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true
+      },
+      "case_id": "P06",
+      "trial": 1,
+      "latency_ms": 2936.86,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true
+      },
+      "case_id": "P06",
+      "trial": 2,
+      "latency_ms": 11186.24,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true
+      },
+      "case_id": "P06",
+      "trial": 3,
+      "latency_ms": 7167.14,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P07",
+      "trial": 1,
+      "latency_ms": 7.43,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P07",
+      "trial": 2,
+      "latency_ms": 4.88,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P07",
+      "trial": 3,
+      "latency_ms": 4.0,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P08",
+      "trial": 1,
+      "latency_ms": 9171.59,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P08",
+      "trial": 2,
+      "latency_ms": 2961.61,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P08",
+      "trial": 3,
+      "latency_ms": 3522.95,
+      "error": null
+    }
+  ]
+}

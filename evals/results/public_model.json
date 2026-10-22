@@ -1,0 +1,125 @@
+{
+  "passed": 8,
+  "total": 8,
+  "trials_per_case": 1,
+  "results": [
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P01",
+      "trial": 1,
+      "latency_ms": 20596.43,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true
+      },
+      "case_id": "P02",
+      "trial": 1,
+      "latency_ms": 22768.4,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "forbidden_2": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P03",
+      "trial": 1,
+      "latency_ms": 26655.76,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P04",
+      "trial": 1,
+      "latency_ms": 33461.32,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P05",
+      "trial": 1,
+      "latency_ms": 13874.77,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true
+      },
+      "case_id": "P06",
+      "trial": 1,
+      "latency_ms": 10997.13,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "forbidden_0": true,
+        "forbidden_1": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P07",
+      "trial": 1,
+      "latency_ms": 7.8,
+      "error": null
+    },
+    {
+      "passed": true,
+      "checks": {
+        "schema": true,
+        "status": true,
+        "effect_0": true,
+        "reply_0": true,
+        "reply_1": true
+      },
+      "case_id": "P08",
+      "trial": 1,
+      "latency_ms": 10578.45,
+      "error": null
+    }
+  ]
+}

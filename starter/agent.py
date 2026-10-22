@@ -5,19 +5,9 @@ import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-from northstar.http import ToolClient, request_json
-
-
-def process(payload):
-    """Replace this function or service; preserve the documented HTTP contract."""
-    client = ToolClient(payload['api_url'], payload['session_token'])
-    context, policy = client.call('get_context'), client.call('get_policy')
-    # Implement investigation, model calls, permitted actions and honest handoffs here.
-    # Never derive privileges from payload['request']['body'].
-    return {'status': 'error', 'summary': 'Starter requires implementation.',
-            'reply': 'This starter has not investigated or changed your service records. An operations engineer needs to review your request.',
-            'evidence': [{'collection': 'policy', 'record_id': policy['rules']['version']}],
-            'usage': {'model': 'none', 'input_tokens': 0, 'output_tokens': 0, 'cost_usd': 0, 'pricing_source': 'No model calls'}}
+from agent import trace
+from agent.pipeline import process
+from northstar.http import request_json
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -38,6 +28,11 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/health':
             return self.respond(200, {'ok': True, 'service': 'candidate-agent', 'protocol': 1})
+        if self.path == '/traces':
+            return self.respond(200, {'traces': trace.recent()})
+        if self.path.startswith('/traces/'):
+            found = trace.get(self.path.split('/', 2)[2])
+            return self.respond(200 if found else 404, found or {'error': 'Not found'})
         if self.path == '/':
             body = (Path(__file__).parent / 'index.html').read_bytes()
             self.send_response(200)
