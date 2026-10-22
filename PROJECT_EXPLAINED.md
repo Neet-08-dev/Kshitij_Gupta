@@ -808,7 +808,7 @@ A script checked all the data. There are **no structural traps** (every relation
 - Backup mode asks a question when two dollar amounts appear.
 - Speed and availability depend on the model provider (bounded at 12 s, with backup mode). The Gemini free tier allows 500 requests a day; after that, everything runs in backup mode until it resets.
 - The grader's "false claim" check uses word patterns, so cleverly reworded false claims could slip past it.
-- The **Docker** way of running it was **not tested on this computer** (Docker is not installed). All numbers come from running it with Python directly.
+- **Docker** was tested later (public tests 8/8 inside Docker, and every test set matched the non-Docker backup-mode results). The model-mode numbers come from running it with Python directly, because Gemini's free daily quota had run out by then.
 
 **Questions for the real customer** (current choices in brackets):
 - Should an expired contract still open a ticket? *(No: hand off to operations.)*
@@ -900,7 +900,7 @@ MODEL_DISABLED=1 python3 -m starter.agent --port 8002
 python3 -m evals.run --agent-url http://localhost:8002
 ```
 
-**With Docker** (not tested on this computer):
+**With Docker** (tested: public tests 8/8 inside Docker):
 ```sh
 cp .env.example .env            # add MODEL_API_KEY if you want the model
 docker compose up --build -d

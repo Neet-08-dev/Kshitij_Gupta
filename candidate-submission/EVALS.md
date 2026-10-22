@@ -217,7 +217,7 @@ That drift is why the agent has a hard wall-clock bound and a deterministic fall
 - The Gemini 100% includes 38 trials answered by the rules fallback because of provider errors. It measures the whole system, not the model alone.
 - Gemini costs are estimates from a third-party list price, not billed amounts.
 - The Gemini numbers were measured just before the T02/H03 fixes. After the fixes, the model path was re-checked only on traps and unit tests, because the daily free-tier quota ran out.
-- I did not run the Docker image locally (Docker isn't installed on this machine). The no-Docker path was used for every number here.
+- The model-path numbers were measured without Docker. The Docker image was verified separately (public 8/8, authored 71/73, held-out 15/15 and traps 7/7, 0 catastrophic), but on the rules path, because the Gemini free-tier quota was spent by then; see README.
 
 ## Provider switch (DeepSeek → Gemini)
 **Why.** Midway through 2026-10-22 every OpenRouter call returned HTTP 402 (out of credit). Nothing failed visibly: the agent answered everything through the rules path, and only the `interpretation` field in traces showed it. That is the same silent-fallback pattern as failure 1, caught by the guard added for it.

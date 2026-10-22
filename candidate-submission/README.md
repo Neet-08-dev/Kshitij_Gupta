@@ -12,9 +12,13 @@ docker compose up --build -d
 curl localhost:8000/health  # {"ok": true, ...}
 docker compose run --rm public-evals
 ```
-The Docker path was **not run locally**, because Docker isn't installed on the development machine. All measurements used the no-Docker path below. To reduce that risk:
-- The code is standard library only and was checked to parse as Python 3.12 (the image's version; development used 3.13).
-- The one image change installs `tzdata`. Slim Debian images may not ship the IANA timezone database, and site timezones such as `America/New_York` need it. The install is best-effort: if it fails, the build still succeeds and the agent degrades safely. It asks for UTC times and treats access windows in unknown zones as closed instead of guessing (unit test `test_missing_tz_database_never_falls_back_to_utc_hours`).
+**Docker was verified** on 2026-10-22 (Colima, Docker 29.5.2, `python:3.12-slim` = Python 3.12.15 on Debian 13.7), with the Dockerfile and compose file unchanged:
+- `docker compose up --build -d`: both services healthy.
+- `docker compose run --rm public-evals`: **8/8**.
+- All 37 unit tests pass inside the container as the image's non-root user.
+- Authored, held-out and trap suites run from the host against the containers (`--agent-api-url http://mock-api:8001`): 71/73, 15/15 and 7/7, 0 catastrophic. These match the no-Docker rules-only results exactly.
+- The container reached Gemini with the key from `.env`, but that day's free-tier quota was already spent (HTTP 429), so these Docker runs exercised the rules path. Model-path numbers come from the no-Docker runs.
+- Site timezones work in the image: the base image ships the IANA database. If it were ever missing, the agent asks for UTC times and treats access windows in unknown zones as closed rather than guessing (unit test `test_missing_tz_database_never_falls_back_to_utc_hours`).
 
 **For the private evaluator:** no extra access is needed beyond the per-request `api_url` and `session_token`. Model access is optional:
 - **Without a key** the agent runs its rules-only path (96.4% on the authored suite, 0 catastrophic).
@@ -119,8 +123,7 @@ python -m unittest discover -s tests -v                                         
 - `starter/agent.py`: now delegates to `agent.pipeline.process` and adds the `GET /traces` routes. The `/health`, `/process` and `/demo` contracts are unchanged.
 - `evals/`: authored, held-out and trap cases, the independent grader, the runner (with `--pace`) and saved results.
 - `tests/test_agent.py`: 21 new offline tests. `tests/test_http.py` has one starter-specific assertion updated, from status `error` to `needs_clarification`; its no-write and no-token-leak checks are unchanged.
-- `Dockerfile`: one best-effort `tzdata` install (see above).
 - `.env.example`: documents the model settings.
-- **No changes to** `northstar/`, `public/` or `docker-compose.yml`.
+- **No changes to** `northstar/`, `public/`, the `Dockerfile` or `docker-compose.yml`.
 
 POST /process follows docs/API.md and uses only the per-request `api_url` and `session_token`. It never needs local fixture paths or administrative access. `/demo` is the starter's local-only helper; disable it in grading or production with an empty `ADMIN_TOKEN`.
